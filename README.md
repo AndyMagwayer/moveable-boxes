@@ -18,3 +18,14 @@ Im fairly certain there should be a way to do it with less code as well. But any
 
 Thanks very much for any help offered! (expand coded in jquery if relevant)
 
+<br>
+I hope I understand you... :) Than you need to separate your drop downs on 3 columns so place 3 di inside one within style "float:left", than in each div place 2 drop downs... in this case when you expand one of the drop down it will effect only on current column – 
+Nikita Holovach
+ Feb 17, 2014 at 23:44 
+I mean so when I expand the top div, the bottom div then moves down automatically :) as currently it stays in place. Thanks for trying to help though! – 
+getfamous
+ Feb 17, 2014 at 23:51
+oh, this is because your "position: absolute;" at #box try use float:left instead – 
+Nikita Holovach
+ Feb 18, 2014 at 0:02 
+
