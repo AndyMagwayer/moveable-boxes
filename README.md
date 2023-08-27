@@ -64,6 +64,10 @@ HTML
 You can also ask grid to auto-place items by column. Using the property grid-auto-flow with a value of column. In this case grid will add items in rows that you have defined using grid-template-rows. When it fills up a column it will move onto the next explicit column, or create a new column track in the implicit grid. As with implicit row tracks, these column tracks will be auto sized. You can control the size of implicit column tracks with grid-auto-columns, this works in the same way as grid-auto-rows.
 
 <br>
+In this next example I have created a grid with three row tracks of 200 pixels height. I am auto-placing by column and the columns created will be a column width of 300 pixels, then a column width of 100 pixels until there are enough column tracks to hold all of the items.
+
+CSS
+Play
 
 
 
