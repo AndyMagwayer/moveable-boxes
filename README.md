@@ -46,5 +46,19 @@ Nikita Holovach
 
  As you can see with the above example, if you create a grid all child items will lay themselves out one into each grid cell. The default flow is to arrange items by row. Grid will lay an item out into each cell of row 1. If you have created additional rows using the grid-template-rows property then grid will continue placing items in these rows. If the grid does not have enough rows in the explicit grid to place all of the items new implicit rows will be created.
 
+
+ <br>
+
+ ### Sizing rows in the implicit grid
+
+ The default for automatically created rows in the implicit grid is for them to be auto-sized. This means that they will contain the content added to them without causing an overflow.
+
+ <br>
+
+ You can however control the size of these rows with the property grid-auto-rows. To cause all created rows to be 100 pixels tall for example you would use:
+
+HTML
+
+
  
 
