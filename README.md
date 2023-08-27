@@ -59,6 +59,10 @@ Nikita Holovach
 
 HTML
 
+## Auto-placement by column:
+
+
+
 
  
 
