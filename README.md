@@ -61,6 +61,10 @@ HTML
 
 ## Auto-placement by column:
 
+You can also ask grid to auto-place items by column. Using the property grid-auto-flow with a value of column. In this case grid will add items in rows that you have defined using grid-template-rows. When it fills up a column it will move onto the next explicit column, or create a new column track in the implicit grid. As with implicit row tracks, these column tracks will be auto sized. You can control the size of implicit column tracks with grid-auto-columns, this works in the same way as grid-auto-rows.
+
+<br>
+
 
 
 
