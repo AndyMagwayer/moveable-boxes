@@ -66,8 +66,7 @@ You can also ask grid to auto-place items by column. Using the property grid-aut
 <br>
 In this next example I have created a grid with three row tracks of 200 pixels height. I am auto-placing by column and the columns created will be a column width of 300 pixels, then a column width of 100 pixels until there are enough column tracks to hold all of the items.
 
-CSS
-Play
+
 
 
 
